@@ -1,8 +1,15 @@
+# SOLVED!
+
+I needed to import `Ng2BootstrapModule` into every sub-`NgModule` that uses it - rather than just the main root `NgModule`.
+
+Repo updated with the fix.
+
 # Problem getting ng2-bootstrap to work in angular2-seed
 
 This repo is a fork of [https://github.com/mgechev/angular2-seed](https://github.com/mgechev/angular2-seed) with [https://github.com/valor-software/ng2-bootstrap](https://github.com/valor-software/ng2-bootstrap) added.
 
 However it doesn't work because the ng2-bootstrap elements are not recognised by Angular which results in errors like this:
+
 
 ```
 zone.js?1474384853974:344 Unhandled Promise rejection: Template parse errors:

@@ -6,9 +6,6 @@ import { HttpModule } from '@angular/http';
 
 import { Ng2BootstrapModule } from 'ng2-bootstrap';
 
-// I can see the contents of the module when I do this, so I guess the import path is correct
-console.log(Ng2BootstrapModule);
-
 import { AppComponent } from './app.component';
 import { routes } from './app.routes';
 
